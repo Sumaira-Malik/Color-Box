@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;}
+
+     /* body */
+
+body{
+    font-family: montserrat;}
+
+   /* first div */
+
+.navbar{
+    background-color: lightslategray;
+    height: 80px;
+    width: 100%;}
+
+/* logo */
+
+.navbar .logo{
+    font-size: 35px;
+    color: white;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;}
+
+    /* navbar ul */
+
+ ul{
+    float: right;
+    margin-right: 100px;
+   }
+
+/* navbar ul li     */
+
+.navbar ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;}
+
+ /* navbar ul li a    */
+
+.navbar ul li a{
+    color: white;
+    font-size: 17px;
+    
+    padding: 7px 13px;}
+
+main{
+    display: flex;
+}    
+
+/* table div */
+
+.div h1{
+  
+   margin: 20px;
+    
+}
+.div{
+    width: 100%;
+}
+.div table{
+  
+    
+    width: 98%;
+    height: 400px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-inline-end: 30px;
+    margin-left: 10px;
+   
+    
+    
+}   
+    
+ table th{
+    background-color: rgba(0, 128, 0, 0.836);
+    color: white;
+}
+    
+.td{
+    background-color: #efefef;}
+
+ .g{
+    background-color: green;
+    color: white;}
+
+ .r{
+    background-color: red;
+    color: rgba(255, 255, 255, 0.993);
+    
+}
+    
+.div table td{
+    text-align: center;
+}    
+
+
+/* footer */ 
+
+.footer{
+    background-color: lightslategray;
+    width: 100%;
+    height: 150px;
+    float: inline-end;
+    padding: 30px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.836);
+    margin-top: 10px;
+}
+.footer h4{
+    text-align: center;
+    
+}
+
+
+
